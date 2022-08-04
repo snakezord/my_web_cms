@@ -8,7 +8,9 @@
     "@strapi/strapi": "4.3.2",
     "better-sqlite3": "7.4.6",
     "lodash.set": "^4.3.2",
-    "mime-types": "^2.1.27"
+    "mime-types": "^2.1.27",
+    "pg": "^8.7.3",
+    "pg-connection-string": "^2.5.0"
   },
   "name": "backend",
   "private": true,
@@ -22,10 +24,10 @@
     "dev": "graphql-codegen --config codegen.yml"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "2.11.3",
     "@graphql-codegen/typescript": "2.7.2",
     "@graphql-codegen/typescript-operations": "2.5.2",
-    "@graphql-codegen/typescript-react-apollo": "3.3.2",
-    "@graphql-codegen/cli": "2.11.3"
+    "@graphql-codegen/typescript-react-apollo": "3.3.2"
   },
   "author": {
     "name": "A Strapi developer"
