@@ -1,3 +1,1 @@
-# 🚀 Getting started with Strapi
-
-### `My blog Strapi CMS`
+# 🚀 My Strapi CMS
